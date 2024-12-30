@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments :: head"></head>
+<body class="container">
+
+<header th:replace="fragments :: header"></header>
+
+<ul class="nav">
+    <li class="nav-item"><a class="nav-link" href="/events">All Events</a></li>
+    <li class="nav-item"><a class="nav-link" href="/events/create">Create Event</a></li>
+    <li class="nav-item"><a class="nav-link" href="/events/delete">Delete Events</a></li>
+    <li class="nav-item"><a class="nav-link" href="/eventCategories">All Categories</a></li>
+    <li class="nav-item"><a class="nav-link" href="/eventCategories/create">Create Category</a></li>
+    <li class="nav-item"><a class="nav-link" href="/tags">All Tags</a></li>
+    <li class="nav-item"><a class="nav-link" href="/tags/create">Create Tags</a></li>
+</ul>
+
+<form method="post">
+    <div class="form-group">
+        <label>Name
+            <input th:field="${tag.name}" class="form-control">
+        </label>
+        <p class="error" th:errors="${tag.name}"></p>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create Tag" class="btn btn-success">
+    </div>
+</form>
+
+</body>
+</html>
