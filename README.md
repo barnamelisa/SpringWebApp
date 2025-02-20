@@ -71,20 +71,14 @@ cd SpringWebApp
 
 This application follows best practices in software development:
 
--   **Spring Boot**:
-   -   Used for quick setup and streamlined backend development.
+-   **Spring Boot**: Used for quick setup and streamlined backend development.
 
--   **Spring MVC**:
-   -   Implements the Model-View-Controller (MVC) pattern to separate business logic, data, and UI.
+-   **Spring MVC**: Implements the Model-View-Controller (MVC) pattern to separate business logic, data, and UI.
 
--   **Spring Data JPA**:
-   -   Handles database interactions and simplifies CRUD operations.
+-   **Spring Data JPA**: Handles database interactions and simplifies CRUD operations.
 
--   **Thymeleaf**:
-   -   Provides a dynamic frontend by rendering views with data from the backend.
+-   **Thymeleaf**: Provides a dynamic frontend by rendering views with data from the backend.
 
--   **Password Hashing**:
-   -   User passwords are securely hashed using BCrypt to enhance security.
+-   **Password Hashing**: User passwords are securely hashed using BCrypt to enhance security.
 
--   **MySQL Database**:
-   -   Stores all event-related data. The system automatically creates tables such as events, categories, and tags.
+-   **MySQL Database**: Stores all event-related data. The system automatically creates tables such as events, categories, and tags.
