@@ -81,4 +81,4 @@ This application follows best practices in software development:
 
 -   **Password Hashing**: User passwords are securely hashed using BCrypt to enhance security.
 
--   **MySQL Database**: Stores all event-related data. The system automatically creates tables such as events, categories, and tags.
+-   **MySQL Database**:  Stores all event-related data. The system automatically creates tables such as events, categories, and tags.
